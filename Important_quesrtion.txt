@@ -1,1 +1,18 @@
 
+###  Beginner
+
+Q-1  What is Tokenization? 
+
+Q-2 What is difference between Stemming and Lemmatization? 
+
+Q-3  What are stop words, why do we need to remove them? 
+
+Q-4  What is Bag of words(BOW) model. 
+
+Q-5  What is TF-IDF, and how does it improve on BoW? 
+
+Q-6  How do you evaluate a text classification model? 
+
+
+
+
