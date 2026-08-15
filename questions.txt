@@ -1,0 +1,181 @@
+Questions
+
+
+
+They can ask from project-2:
+
+Why XGBoost?
+
+Why MLP?
+
+What features did you extract?
+
+Why not Random Forest?
+
+How did you handle class imbalance?
+
+What metric did you use?
+
+How did you prevent overfitting?
+
+How did you validate the model?
+
+
+
+
+
+DAY 1 — RAG Fundamentals 🔥
+
+This should be your most intense day.
+
+Start from absolute fundamentals.
+
+LLM
+
+Understand:
+
+Tokenization
+Embeddings
+Transformer
+Attention
+Self-attention
+Encoder
+Decoder
+Decoder-only architecture
+Context window
+Temperature
+Top-k
+Top-p
+hallucination
+inference
+
+Don't memorize definitions.
+
+Be able to explain them conversationally.
+
+For example:
+
+"Why does an LLM need embeddings?"
+
+You should be able to answer naturally.
+Chunking
+Why?
+Chunk size?
+Chunk overlap?
+What happens if chunks are too large?
+What happens if they're too small?
+Embeddings
+What are they?
+Dense vs sparse embeddings
+Semantic similarity
+Cosine similarity
+Dimension
+FAISS
+
+Know:
+
+What is FAISS?
+Why did you choose it?
+How does vector similarity search work?
+FAISS vs ChromaDB
+FAISS vs Pinecone
+Retrieval
+
+Understand:
+
+similarity search
+top-k
+metadata filtering
+hybrid search
+Reranking
+
+This is particularly important because you explicitly mention reranking on your resume.
+
+Be ready for:
+
+Why do we need reranking if we already have a retriever?
+
+
+
+DAY 2 — Your RAG Project Deep Dive
+
+This day is not about learning new GenAI topics.
+
+It's about mastering your own project.
+
+I want you to be able to draw your architecture on paper without looking at your code.
+
+Then prepare answers to:
+
+Project questions
+Why did you build this?
+What problem does it solve?
+Why RAG?
+Why not fine-tuning?
+Why FAISS?
+Why LangChain?
+How did you chunk documents?
+Which embedding model?
+Why that embedding model?
+How did retrieval work?
+What was top-k?
+How did reranking work?
+Why reranking?
+Which LLM?
+Why that LLM?
+How did you handle hallucination?
+How did you evaluate the system?
+Why RAGAS?
+What metrics did you use?
+What were the limitations?
+What would you improve?
+How did you deploy it?
+Why Docker?
+Why ECS/Fargate?
+What role did ALB play?
+How did you manage secrets?
+What happens if the LLM API fails?
+What happens if retrieval returns irrelevant documents?
+What happens with very large documents?
+What happens when two documents contain conflicting information?
+
+If you can answer these confidently, this project becomes your weapon.
+
+
+
+
+
+
+
+
+Advance(Optional) :
+
+For example, if your resume says:
+
+LangGraph
+
+you should be able to explain:
+
+What is LangGraph?
+Why LangGraph instead of LangChain?
+What is a graph?
+What is state?
+What is a node?
+What is an edge?
+How do conditional edges work?
+How would you build an agent workflow?
+
+Same for:
+
+AI Agents
+
+You should know:
+
+Agent vs chatbot
+Tool calling
+Planning
+Memory
+ReAct
+Agent workflow
+
+If you're not ready → remove it.
