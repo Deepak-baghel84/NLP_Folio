@@ -144,6 +144,94 @@ If you can answer these confidently, this project becomes your weapon.
 
 
 
+DAY 3 — Machine Learning
+
+Now switch gears.
+
+Master:
+
+Regression
+Linear Regression
+assumptions
+loss function
+gradient descent
+regularization
+Classification
+Logistic Regression
+KNN
+Naive Bayes
+Decision Tree
+Random Forest
+SVM
+XGBoost
+Core concepts
+
+These are extremely important:
+
+Bias
+Variance
+Overfitting
+Underfitting
+Regularization
+Cross-validation
+Data leakage
+Feature selection
+Feature engineering
+DAY 4 — ML + Deep Learning
+
+Focus on:
+
+Evaluation
+
+Know exactly:
+
+Accuracy
+Precision
+Recall
+F1
+ROC-AUC
+Confusion Matrix
+
+And more importantly:
+
+When would you choose each?
+
+For example:
+
+"Why isn't accuracy a good metric for an imbalanced dataset?"
+
+You should immediately know the answer.
+
+Deep Learning
+
+Don't go insanely deep.
+
+Cover:
+
+Perceptron
+Neural Networks
+Activation functions
+Forward propagation
+Backpropagation
+Gradient descent
+Learning rate
+Epoch
+Batch
+Batch size
+Dropout
+Batch normalization
+CNN
+RNN
+LSTM
+Transformers
+
+Know why CNNs are good for images and why Transformers replaced RNN-style architectures for many language tasks
+
+
+
+
+
+
 
 
 
