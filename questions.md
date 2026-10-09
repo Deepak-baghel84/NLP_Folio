@@ -1,4 +1,4 @@
-Questions
+## Questions
 
 
 
@@ -267,3 +267,106 @@ ReAct
 Agent workflow
 
 If you're not ready → remove it.
+
+
+Questions
+
+
+DAY 3 — Machine Learning
+
+Now switch gears.
+
+Master:
+
+Regression
+Linear Regression
+assumptions
+loss function
+gradient descent
+regularization
+Classification
+Logistic Regression
+KNN
+Naive Bayes
+Decision Tree
+Random Forest
+SVM
+XGBoost
+Core concepts
+
+These are extremely important:
+
+Bias
+Variance
+Overfitting
+Underfitting
+Regularization
+Cross-validation
+Data leakage
+Feature selection
+Feature engineering
+DAY 4 — ML + Deep Learning
+
+Focus on:
+
+Evaluation
+
+Know exactly:
+
+Accuracy
+Precision
+Recall
+F1
+ROC-AUC
+Confusion Matrix
+
+And more importantly:
+
+When would you choose each?
+
+For example:
+
+"Why isn't accuracy a good metric for an imbalanced dataset?"
+
+You should immediately know the answer.
+
+Deep Learning
+
+Don't go insanely deep.
+
+Cover:
+
+Perceptron
+Neural Networks
+Activation functions
+Forward propagation
+Backpropagation
+Gradient descent
+Learning rate
+Epoch
+Batch
+Batch size
+Dropout
+Batch normalization
+CNN
+RNN
+LSTM
+Transformers
+
+Know why CNNs are good for images and why Transformers replaced RNN-style architectures for many language tasks
+
+
+
+================================================================
+
+
+"Each neuron computes a weighted sum of inputs plus a bias, and an activation function introduces non-linearity. During forward propagation, the network produces a prediction. We calculate the loss between the prediction and actual value. During backpropagation, we calculate gradients of the loss with respect to the weights and biases using the chain rule. Then an optimizer such as gradient descent updates those parameters in the opposite direction of the gradient. The learning rate controls how large those updates are. This process is repeated over many iterations until the loss is minimized."
+
+
+
+
+"Simple Linear Regression cannot model nonlinear relationships directly. However, we can transform the features, for example by adding polynomial terms such as x
+2
+ and x
+3
+, and then fit a linear model to those transformed features. So the relationship with the input can be nonlinear while the model remains linear in its parameters."
