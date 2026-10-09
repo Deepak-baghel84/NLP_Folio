@@ -1,0 +1,112 @@
+## ML
+
+
+Data leakage:
+Any feature available at the time of training but not at the time of testing and directly or indirectly related to the ground truth or result.
+
+imbalanced:
+for one type of output class size of the data or percentage of data is very high while for other class it is very low as a example 90 % data for one class and only 10% data for other so each time model predict for higher one and still have higher accuracy.
+
+Guardrails:
+As name suggest guard means it prevent something,
+Users try to trick llm through a prompt to be generate some crucial information or harmful content using guardrails we define these limitations so that this type of response will not be generated. 
+
+Ragas:
+LLM as a Judge
+
+
+Rag:
+It is a technique to connect llm with external knowledgebase and then generate answers, generally llm's does not have knowledge about our personal or some data so instead of training from scratch(which is very costly process) we connect it with some external knowledgebase by following some set of instructions it generate answer.
+
+
+
+
+"PCA, or Principal Component Analysis, is an unsupervised dimensionality reduction technique. It transforms the original correlated features into a smaller set of uncorrelated variables called principal components, while retaining maximum variance or information. It is commonly used to reduce computational complexity, remove redundancy, and visualize high-dimensional data."
+
+
+"Convolution is an operation where a small kernel slides over an image and performs element-wise multiplication followed by summation to produce a feature map. It helps extract spatial features such as edges, textures, and patterns. In CNNs, these filters are learned during training."
+
+
+"Pooling is a downsampling operation used in CNNs to reduce the spatial dimensions of feature maps while retaining important features. In max pooling, for example, we take the maximum value from a local region such as 2×2. This reduces computation and helps the network focus on important features.
+
+
+"Since MSE squares the errors, outliers can have a very large impact. First, I would investigate whether the outliers are genuine or data errors. If they are invalid, I would correct or remove them. If they are genuine, I could use techniques like winsorization or target transformation, or choose a robust loss such as Huber Loss instead of MSE.
+
+
+"A confusion matrix is a performance evaluation table for classification models. It shows the number of true positives, true negatives, false positives, and false negatives by comparing actual and predicted classes. From it, we can calculate metrics such as accuracy, precision, recall, and F1-score."
+
+
+Activation Function:
+This function sits at the end of neural network and introduce non linearity in result to capture complex patterns.
+without activation function it works as a giant linear model. 
+ReLU is commonly used in hidden layers, while sigmoid or softmax are commonly used in classification output layers."
+non linearity means the relationship between x(input) and y(output) can't be define using linear relationship.
+means if data contains curve like structure that can't we work with that.
+
+"Non-linearity means the relationship between input and output cannot be represented simply by a straight-line or linear function. Real-world problems like image recognition contain complex patterns, so activation functions introduce non-linearity and allow neural networks to learn these patterns.
+
+
+ML
+
+
+Data leakage:
+Any feature available at the time of training but not at the time of testing and directly or indirectly related to the ground truth or result.
+
+imbalanced:
+for one type of output class size of the data or percentage of data is very high while for other class it is very low as a example 90 % data for one class and only 10% data for other so each time model predict for higher one and still have higher accuracy.
+
+Guardrails:
+As name suggest guard means it prevent something,
+Users try to trick llm through a prompt to be generate some crucial information or harmful content using guardrails we define these limitations so that this type of response will not be generated.
+
+Ragas:
+LLM as a Judge
+
+
+Rag:
+It is a technique to connect llm with external knowledgebase and then generate answers, generally llm's does not have knowledge about our personal or some data so instead of training from scratch(which is very costly process) we connect it with some external knowledgebase by following some set of instructions it generate answer.
+
+
+
+
+"PCA, or Principal Component Analysis, is an unsupervised dimensionality reduction technique. It transforms the original correlated features into a smaller set of uncorrelated variables called principal components, while retaining maximum variance or information. It is commonly used to reduce computational complexity, remove redundancy, and visualize high-dimensional data."
+
+
+"Convolution is an operation where a small kernel slides over an image and performs element-wise multiplication followed by summation to produce a feature map. It helps extract spatial features such as edges, textures, and patterns. In CNNs, these filters are learned during training."
+
+
+"Pooling is a downsampling operation used in CNNs to reduce the spatial dimensions of feature maps while retaining important features. In max pooling, for example, we take the maximum value from a local region such as 2×2. This reduces computation and helps the network focus on important features.
+
+
+"Since MSE squares the errors, outliers can have a very large impact. First, I would investigate whether the outliers are genuine or data errors. If they are invalid, I would correct or remove them. If they are genuine, I could use techniques like winsorization or target transformation, or choose a robust loss such as Huber Loss instead of MSE.
+
+
+"A confusion matrix is a performance evaluation table for classification models. It shows the number of true positives, true negatives, false positives, and false negatives by comparing actual and predicted classes. From it, we can calculate metrics such as accuracy, precision, recall, and F1-score."
+
+
+Activation Function:
+This function sits at the end of neural network and introduce non linearity in result to capture complex patterns.
+without activation function it works as a giant linear model.
+ReLU is commonly used in hidden layers, while sigmoid or softmax are commonly used in classification output layers."
+non linearity means the relationship between x(input) and y(output) can't be define using linear relationship.
+means if data contains curve like structure that can't we work with that.
+
+"Non-linearity means the relationship between input and output cannot be represented simply by a straight-line or linear function. Real-world problems like image recognition contain complex patterns, so activation functions introduce non-linearity and allow neural networks to learn these patterns.
+
+================================================================
+
+
+3. Quick interview table
+Situation	Activation
+Hidden layers	ReLU commonly
+Binary classification	Sigmoid
+Multi-class, one class only	Softmax
+Multi-label classification	Sigmoid
+RNN/LSTM internal states	Tanh commonly
+ReLU dying-neuron issue	Leaky ReLU
+
+
+"It depends mainly on where the activation is being used and the type of prediction task. For hidden layers, ReLU is a common choice because it is computationally efficient and helps with gradient propagation. For binary classification, I typically use sigmoid in the output layer because it produces a value between 0 and 1. For multi-class single-label classification, I use softmax because it converts the outputs into probabilities that sum to one. For multi-label classification, I use sigmoid independently for each class."
+
+
+"The vanishing gradient problem occurs when gradients become extremely small during backpropagation, especially in deep networks. This causes earlier layers to learn very slowly or stop learning. It commonly occurs with activation functions like sigmoid and tanh because their derivatives can become very small. ReLU helps mitigate this problem because its derivative is 1 for positive inputs."
