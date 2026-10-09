@@ -1,5 +1,0 @@
-*Hello everyone. Imagine this scenario. A founder is actually trying to give a demo to a potentially important client.** 
-**So, she has flown to a different country and has planned this demo in a hotel.** **So, she is obviously using hotel Wi-Fi and when she actually tried to open the web page, it took 4 seconds before the page itself is visible. 
-So, she is immediately worried because when she was demoing the same product in office, it only took just 300 milliseconds. So, she called her team and asked like, "There might be some issue with the back end.**
-**Can you please check the server logs and whatever it is?" The team has actually checked the back end server logs or back end dashboard and they found out the entire request took only 40 milliseconds for it to be processed in the back end.**
-**So, where does this remaining 3.96 seconds is what this video is about
