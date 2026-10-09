@@ -83,7 +83,7 @@ Roles and policies : How different services will interact with each other for th
 
 =============================================================================================================================================
 
-General conversation about web scrapping:
+## General conversation about web scrapping:
 
 options.add_argument(...)
 options is an instance of uc.ChromeOptions() (from undetected-chromedriver).
